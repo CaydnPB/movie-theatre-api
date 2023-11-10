@@ -1,6 +1,23 @@
-![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)
+<h1 align="center">Movie Theatre API</h1>
+<div align="center">
+  <h2>Background</h2>
+  <img src="./img/gradient.svg" alt="A gradient separator used to distinguish sections of the page" draggable="false"
+    style="max-width: 100%;" title="Gradient Separator">
+</div>
+<br>
+<p>
+  👨‍💻 This repository was created as a part of my <a href="https://www.multiverse.io/en-GB/programmes/software-engineering" draggable="false">Multiverse Bootcamp</a>
+</p>
+<div align="center">
+  <h2>Original README</h2>
+  <img src="./img/gradient.svg" alt="A gradient separator used to distinguish sections of the page" draggable="false"
+    style="max-width: 100%;" title="Gradient Separator">
+</div>
+<br>
+<p>
+<img src="https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg" alt="Logo">
 
-# Movie Theater API
+# Movie Theatre API
 
 **TASK**: You are a Software Engineer for a movie theater company, and your team
 is tasked with creating an API that can work with and serve data on our database
@@ -82,3 +99,13 @@ Use server-side validation in your routes to ensure that:
 - The title of a show must be a maximum of 25 characters
 - The username must be an email address
   [hint](https://express-validator.github.io/docs/api/validation-chain/#isemail)
+</p>
+<div align="center">
+  <img src="./img/gradient.svg" alt="A gradient separator used to distinguish sections of the page" draggable="false"
+    style="max-width: 100%;" title="Gradient Separator">
+</div>
+<br>
+<div align="center">
+  <img src="./img/madebycaydn.svg" alt="A badge showing that this was 'Made by Caydn'" draggable="false"
+    title="Made by Caydn">
+</div>
