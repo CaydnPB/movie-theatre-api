@@ -2,6 +2,7 @@ const { Router } = require("express");
 const showsRouter = Router();
 const { Show, User, watched } = require("../models/index")
 const { db } = require("../db/connection")
+const { check, validationResult } = require("express-validator");
 
 showsRouter.get("/", async (req, res) => {
     const everyShow = await Show.findAll();
@@ -42,7 +43,9 @@ showsRouter.get('/genres/:genre', async (req, res) => {
     }
 });
 
-showsRouter.put('/:id/watched', async (req, res) => {
+showsRouter.put('/:id/watched', [
+    check("rating").isLength({ min: 1, max: 1 }).withMessage("Rating must be 1 character")
+    ], async (req, res) => {
     const showId = req.params.id;
     try {
         const showToUpdate = await Show.findByPk(showId);
